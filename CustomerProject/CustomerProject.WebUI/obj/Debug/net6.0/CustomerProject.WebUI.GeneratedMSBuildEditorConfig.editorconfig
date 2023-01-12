@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CustomerProject.WebUI
+build_property.RootNamespace = CustomerProject.WebUI
+build_property.ProjectDir = C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Address/CustomerAddressAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xDdXN0b21lckFkZHJlc3NBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Address/CustomerAddressEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xDdXN0b21lckFkZHJlc3NFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Address/CustomerAddressList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc1xDdXN0b21lckFkZHJlc3NMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Contact/CustomerContactAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDdXN0b21lckNvbnRhY3RBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Contact/CustomerContactEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDdXN0b21lckNvbnRhY3RFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Contact/CustomerContactList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDdXN0b21lckNvbnRhY3RMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Customer/CustomerAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Customer/CustomerEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Customer/CustomerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Shared/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ekrem/Desktop/CustomerProject/CustomerProject/CustomerProject.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zgmur4yqkw

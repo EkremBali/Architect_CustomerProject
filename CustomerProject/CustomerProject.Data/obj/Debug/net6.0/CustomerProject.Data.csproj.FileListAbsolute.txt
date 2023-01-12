@@ -1,0 +1,17 @@
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Data.deps.json
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Data.runtimeconfig.json
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Data.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Data.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Entity.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\bin\Debug\net6.0\CustomerProject.Entity.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.csproj.AssemblyReference.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.AssemblyInfoInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.AssemblyInfo.cs
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.csproj.CopyComplete
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\refint\CustomerProject.Data.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\CustomerProject.Data.genruntimeconfig.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Data\obj\Debug\net6.0\ref\CustomerProject.Data.dll

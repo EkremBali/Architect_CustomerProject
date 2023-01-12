@@ -1,0 +1,59 @@
+﻿@model ContactInfoModel
+
+@{
+	var codeList = Model.PhoneCodes != null ? Model.PhoneCodes.Select(c => c.Code).ToList() : new List<string>() { "+90" };
+}
+
+<h1>İletişim Bilgisi Ekle</h1>
+
+<form method="post" asp-controller="Contact" asp-action="CustomerContactAdd">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="text-danger" asp-validation-summary="All"></div>
+
+			<input asp-for="CustomerId" type="hidden" value="@Model.CustomerId"/>
+			<input asp-for="IsMail" type="hidden" value="@Model.IsMail"/>
+
+			@if (Model.IsMail)
+			{
+				<div class="row mb-3">
+					<label asp-for="Mail" class="col-sm-2 col-form-label">Müşteri E-Posta</label>
+					<div class="col-sm-10">
+						<input class="form-control" asp-for="Mail">
+					</div>
+				</div>
+			}
+			else
+			{
+				<div class="row mb-3">
+					<label asp-for="PhoneType" class="col-sm-2 col-form-label">Müşteri Telefon Başlığı</label>
+					<div class="col-sm-10">
+						<input class="form-control" asp-for="PhoneType">
+					</div>
+				</div>
+				<div class="row mb-3">
+					<label asp-for="Phone" class="col-sm-2 col-form-label">Müşteri Telefon Numarası</label>
+					<div class="col-sm-2">
+						<select class="form-control" asp-for="PhoneCode">
+							@foreach (var code in codeList)
+							{
+								<option>@code</option>
+							}
+						</select>
+					</div>
+					<div class="col-sm-8">
+						<input class="form-control" asp-for="Phone">
+					</div>
+				</div>
+			}
+
+			<button type="submit" class="btn btn-primary w-25">Ekle</button>
+
+		</div>
+	</div>
+</form>
+
+@section Scripts{
+	<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

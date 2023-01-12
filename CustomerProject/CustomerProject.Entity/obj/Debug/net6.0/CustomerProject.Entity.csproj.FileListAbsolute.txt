@@ -1,0 +1,12 @@
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\bin\Debug\net6.0\CustomerProject.Entity.deps.json
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\bin\Debug\net6.0\CustomerProject.Entity.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\bin\Debug\net6.0\CustomerProject.Entity.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.csproj.AssemblyReference.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.AssemblyInfoInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.AssemblyInfo.cs
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\refint\CustomerProject.Entity.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\CustomerProject.Entity.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Entity\obj\Debug\net6.0\ref\CustomerProject.Entity.dll

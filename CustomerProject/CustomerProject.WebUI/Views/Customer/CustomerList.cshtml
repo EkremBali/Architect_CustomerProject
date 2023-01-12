@@ -1,0 +1,88 @@
+﻿@model List<CustomerModel>
+
+<h1>Müşteri Listesi</h1>
+<br />
+
+<div class="row d-flex justify-content-between">
+	<div class="col-md-3">
+		<a href="/Customer/CustomerAdd" class="btn btn-primary my-3">Müşteri Ekle</a>
+	</div>
+	<div class="col-md-3">
+		<form method="get" asp-controller="Customer" asp-action="CustomerList">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Ara..." name="search" />
+				<button class="btn btn-primary btn-sm">Ara</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-bordered table-responsive">
+			<thead>
+				<tr class="table-dark">
+					<td style="width:200px;">Ad Soyad</td>
+					<td style="width:100px;">TC</td>
+					<td style="width:200px;">Doğum Yeri</td>
+					<td style="width:100px;">Doğum Yılı</td>
+					<td style="width:100px;">Sıra Dışı</td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+
+				@foreach (var customer in Model)
+				{
+					<tr class="table-secondary">
+						<td>@customer.Name @customer.Surname</td>
+						<td>@customer.TC</td>
+						<td>@customer.BirthPlace</td>
+						<td>@customer.BirthYear</td>
+						<td>
+							@if (customer.IsNameExtraordinary)
+							{
+								<i class="fa-solid fa-check"></i>
+							}
+							else
+							{
+								<i class="fa-solid fa-xmark"></i>
+							}
+						</td>
+						<td>
+							<div class="row">
+								<div class="col-md-3">
+									<form method="get" asp-controller="Contact" asp-action="CustomerContactList">
+										<input type="hidden" name="Id" value="@customer.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">İletişim Bilgileri</button>
+									</form>
+								</div>
+								<div class="col-md-3">
+									<form method="get" asp-controller="Address" asp-action="CustomerAddressList">
+										<input type="hidden" name="Id" value="@customer.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Adres Bilgileri</button>
+									</form>
+								</div>
+								<div class="col-md-3">
+									<form method="get" asp-controller="Customer" asp-action="CustomerEdit">
+										<input type="hidden" name="Id" value="@customer.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Güncelle</button>
+									</form>
+								</div>
+								<div class="col-md-3">
+									<form method="post" asp-controller="Customer" asp-action="CustomerDelete">
+										<input type="hidden" name="Id" value="@customer.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Sil</button>
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+
+
+			</tbody>
+		</table>
+	</div>
+</div>

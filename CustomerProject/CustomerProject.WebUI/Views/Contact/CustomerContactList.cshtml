@@ -1,0 +1,61 @@
+﻿@model Customer
+
+<h1>@Model.Name @Model.Surname İletişim Bilgileri</h1>
+<br />
+
+<div class="col-md-3">
+	<a href="/Contact/CustomerContactAdd?CustomerId=@Model.Id&IsMail=@true" class="btn btn-primary w-100 my-3">Mail Bilgisi Ekle</a>
+</div>
+<div class="col-md-3">
+	<a href="/Contact/CustomerContactAdd?CustomerId=@Model.Id&IsMail=@false" class="btn btn-primary w-100 my-3">Telefon Bilgisi Ekle</a>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-bordered table-responsive">
+			<thead>
+				<tr class="table-dark">
+					<td style="width:50px;">İletişim Türü</td>
+					<td style="width:100px;">Varsa Başlık</td>
+					<td style="width:200px;">İletişim Bilgisi</td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+
+				@foreach (var contactInformation in Model.ContactInformations)
+				{
+					<tr class="table-secondary">
+						@if (contactInformation.IsMail)
+						{
+							<td>Mail</td>
+							<td colspan="2">@contactInformation.Mail</td>
+						}
+						else
+						{
+							<td>Telefon</td>
+							<td>@contactInformation.PhoneType</td>
+							<td>@contactInformation.Phone</td>
+						}
+						<td>
+							<div class="row">
+								<div class="col-md-6">
+									<form method="get" asp-controller="Contact" asp-action="CustomerContactEdit">
+										<input type="hidden" name="Id" value="@contactInformation.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Güncelle</button>
+									</form>
+								</div>
+								<div class="col-md-6">
+									<form method="post" asp-controller="Contact" asp-action="CustomerContactDelete">
+										<input type="hidden" name="Id" value="@contactInformation.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Sil</button>
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Business.deps.json
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Business.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Business.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Data.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Entity.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Data.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\bin\Debug\net6.0\CustomerProject.Entity.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.csproj.AssemblyReference.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.AssemblyInfoInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.AssemblyInfo.cs
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.csproj.CopyComplete
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\refint\CustomerProject.Business.dll
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\CustomerProject.Business.pdb
+C:\Users\Ekrem\Desktop\CustomerProject\CustomerProject\CustomerProject.Business\obj\Debug\net6.0\ref\CustomerProject.Business.dll

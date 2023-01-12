@@ -1,0 +1,56 @@
+﻿@model Customer
+
+<h1>@Model.Name @Model.Surname Adres Bilgileri</h1>
+<br />
+
+<div class="col-md-3">
+	<a href="/Address/CustomerAddressAdd?CustomerId=@Model.Id" class="btn btn-primary w-100 my-3">Adres Bilgisi Ekle</a>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-bordered table-responsive">
+			<thead>
+				<tr class="table-dark">
+					<td style="width:100px;">Adres Tipi</td>
+					<td style="width:100px;">Ülke</td>
+					<td style="width:100px;">İl</td>
+					<td style="width:100px;">İlçe</td>
+					<td style="width:400px;">Açık Adres</td>
+					<td style="width:50px;">Posta Kodu</td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+
+				@foreach (var addressInformation in Model.AddressInformations)
+				{
+					<tr class="table-secondary">
+						<td>@addressInformation.AddressType</td>
+						<td>@addressInformation.Country</td>
+						<td>@addressInformation.City</td>
+						<td>@addressInformation.District</td>
+						<td>@addressInformation.DetailedAddress</td>
+						<td>@addressInformation.PostCode</td>
+						<td>
+							<div class="row">
+								<div class="col-md-6">
+									<form method="get" asp-controller="Address" asp-action="CustomerAddressEdit">
+										<input type="hidden" name="Id" value="@addressInformation.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Güncelle</button>
+									</form>
+								</div>
+								<div class="col-md-6">
+									<form method="post" asp-controller="Address" asp-action="CustomerAddressDelete">
+										<input type="hidden" name="Id" value="@addressInformation.Id" />
+										<button type="submit" class="btn btn-primary btn-sm w-100 mb-2">Sil</button>
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
